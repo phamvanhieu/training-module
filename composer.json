@@ -11,8 +11,20 @@
             "email": "vanhieup1998@gmail.com"
         }
     ],
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
     "require": {
+        "php": "^7.3|^8.0",
     },
     "license": "MIT",
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true,
 }
